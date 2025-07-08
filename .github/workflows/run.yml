@@ -3,9 +3,9 @@ name: Scheduled Beat Plan Report
 on:
   schedule:
     # 9:00 AM IST (3:30 AM UTC)
-    - cron: '45 6 * * *'
+    - cron: '55 6 * * *'
     
-  workflow_dispatch:  # Allows manual trigger from GitHub UI
+
 
 jobs:
   run-report:
