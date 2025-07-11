@@ -5,7 +5,7 @@ on:
     # 9:00 AM IST (3:30 AM UTC)
     - cron: '55 6 * * *'
     
-
+  workflow_dispatch:  # Allows manual trigger from GitHub UI
 
 jobs:
   run-report:
